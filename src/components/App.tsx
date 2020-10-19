@@ -25,7 +25,7 @@ function App() {
   return (
     <div id="App">
       <SideBar
-        customBurgerIcon={<img src={tetra} alt = "menu button" />}
+        customBurgerIcon={<img src={tetra} alt="menu button" />}
         isOpen
         pageWrapId={"page-wrap"}
         outerContainerId={"App"}
