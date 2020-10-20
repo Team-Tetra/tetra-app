@@ -468,6 +468,10 @@ const images = [
     original: "https://i.imgur.com/3YAB3s9.png",
     thumbnail: "https://i.imgur.com/3YAB3s9s.png",
   },
+  {
+    original: "https://i.imgur.com/1GbZzrd.png",
+    thumbnail: "https://i.imgur.com/1GbZzrds.png",
+  },
 ];
 
 function Gallery() {

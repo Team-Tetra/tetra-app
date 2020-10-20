@@ -1,1 +1,4 @@
 yarn.lock
+.DS_Store
+.gitignore
+.prettierignore
