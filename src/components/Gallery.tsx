@@ -472,6 +472,10 @@ const images = [
     original: "https://i.imgur.com/1GbZzrd.png",
     thumbnail: "https://i.imgur.com/1GbZzrds.png",
   },
+  {
+    original: "https://i.imgur.com/goWGMQE.png",
+    thumbnail: "https://i.imgur.com/goWGMQEs.png",
+  },
 ];
 
 function Gallery() {
