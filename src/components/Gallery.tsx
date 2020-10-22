@@ -480,7 +480,17 @@ const images = [
     original: "https://i.imgur.com/OYxNvnQ.jpg",
     thumbnail: "https://i.imgur.com/OYxNvnQs.jpg",
   },
+  {
+    original: "https://i.imgur.com/9z5eU1H.png",
+    thumbnail: "https://i.imgur.com/9z5eU1Hs.png",
+  },
+  {
+    original: "https://i.imgur.com/lMhoKY8.png",
+    thumbnail: "https://i.imgur.com/lMhoKY8s.png",
+  },
 ];
+
+images.reverse();
 
 function Gallery() {
   return (
