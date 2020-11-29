@@ -524,6 +524,106 @@ const images = [
     original: "https://i.imgur.com/pLzQZsp.jpg",
     thumbnail: "https://i.imgur.com/pLzQZsps.jpg",
   },
+  {
+    original: "https://i.imgur.com/QmvzPFI.png",
+    thumbnail: "https://i.imgur.com/QmvzPFIS.png",
+  },
+  {
+    original: "https://i.imgur.com/nyyPWLL.png",
+    thumbnail: "https://i.imgur.com/nyyPWLLS.png",
+  },
+  {
+    original: "https://i.imgur.com/stSXAMn.png",
+    thumbnail: "https://i.imgur.com/stSXAMnS.png",
+  },
+  {
+    original: "https://i.imgur.com/86Ff6FT.png",
+    thumbnail: "https://i.imgur.com/86Ff6FTs.png",
+  },
+  {
+    original: "https://i.imgur.com/6RifFg3.png",
+    thumbnail: "https://i.imgur.com/6RifFg3s.png",
+  },
+  {
+    original: "https://i.imgur.com/AD8PkxQ.png",
+    thumbnail: "https://i.imgur.com/AD8PkxQs.png",
+  },
+  {
+    original: "https://i.imgur.com/n166OfV.png",
+    thumbnail: "https://i.imgur.com/n166OfVs.png",
+  },
+  {
+    original: "https://i.imgur.com/WnNeTDV.png",
+    thumbnail: "https://i.imgur.com/WnNeTDVs.png",
+  },
+  {
+    original: "https://i.imgur.com/KnDKq7D.png",
+    thumbnail: "https://i.imgur.com/KnDKq7Ds.png",
+  },
+  {
+    original: "https://i.imgur.com/KnDKq7D.png",
+    thumbnail: "https://i.imgur.com/KnDKq7Ds.png",
+  },
+  {
+    original: "https://i.imgur.com/vEwx5Sd.png",
+    thumbnail: "https://i.imgur.com/vEwx5Sds.png",
+  },
+  {
+    original: "https://i.imgur.com/e5jOJ2r.png",
+    thumbnail: "https://i.imgur.com/e5jOJ2rs.png",
+  },
+  {
+    original: "https://i.imgur.com/D6yutQB.png",
+    thumbnail: "https://i.imgur.com/D6yutQBs.png",
+  },
+  {
+    original: "https://i.imgur.com/Lo3IhT9.png",
+    thumbnail: "https://i.imgur.com/Lo3IhT9s.png",
+  },
+  {
+    original: "https://i.imgur.com/Ezh37Wf.png",
+    thumbnail: "https://i.imgur.com/Ezh37Wfs.png",
+  },
+  {
+    original: "https://i.imgur.com/qKCmrek.png",
+    thumbnail: "https://i.imgur.com/qKCmreks.png",
+  },
+  {
+    original: "https://i.imgur.com/keFCSRM.png",
+    thumbnail: "https://i.imgur.com/keFCSRMs.png",
+  },
+  {
+    original: "https://i.imgur.com/ngT3xno.png",
+    thumbnail: "https://i.imgur.com/ngT3xnos.png",
+  },
+  {
+    original: "https://i.imgur.com/xJRMiVb.png",
+    thumbnail: "https://i.imgur.com/xJRMiVbs.png",
+  },
+  {
+    original: "https://i.imgur.com/XugSY6L.png",
+    thumbnail: "https://i.imgur.com/XugSY6Ls.png",
+  },
+  {
+    original: "https://i.imgur.com/tSfuKxd.png",
+    thumbnail: "https://i.imgur.com/tSfuKxds.png",
+  },
+  {
+    original: "https://i.imgur.com/KuwS4gS.png",
+    thumbnail: "https://i.imgur.com/KuwS4gSs.png",
+  },
+  {
+    original: "https://i.imgur.com/fZRBtun.png",
+    thumbnail: "https://i.imgur.com/fZRBtuns.png",
+  },
+  {
+    original: "https://i.imgur.com/CVV0LcM.png",
+    thumbnail: "https://i.imgur.com/CVV0LcMs.png",
+  },
+  {
+    original: "https://i.imgur.com/Y1lgY5r.png",
+    thumbnail: "https://i.imgur.com/Y1lgY5rs.png",
+  },
 ];
 
 images.reverse();
