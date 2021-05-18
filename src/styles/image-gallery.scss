@@ -160,7 +160,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   }
 
   .image-gallery-slide .image-gallery-image {
-    max-height: calc(95vh - 80px); // 80 px for the thumbnail space
+    max-height: calc(97vh - 80px); // 80 px for the thumbnail space
   }
 
   &.left,
@@ -338,6 +338,8 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
     text-align: center;
     transition: transform 0.45s ease-out;
     white-space: nowrap;
+    bottom: 0px;
+    position: fixed;
   }
 }
 
