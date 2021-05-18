@@ -526,15 +526,15 @@ const images = [
   },
   {
     original: "https://i.imgur.com/QmvzPFI.png",
-    thumbnail: "https://i.imgur.com/QmvzPFIS.png",
+    thumbnail: "https://i.imgur.com/QmvzPFIs.png",
   },
   {
     original: "https://i.imgur.com/nyyPWLL.png",
-    thumbnail: "https://i.imgur.com/nyyPWLLS.png",
+    thumbnail: "https://i.imgur.com/nyyPWLLs.png",
   },
   {
     original: "https://i.imgur.com/stSXAMn.png",
-    thumbnail: "https://i.imgur.com/stSXAMnS.png",
+    thumbnail: "https://i.imgur.com/stSXAMns.png",
   },
   {
     original: "https://i.imgur.com/86Ff6FT.png",
@@ -555,10 +555,6 @@ const images = [
   {
     original: "https://i.imgur.com/WnNeTDV.png",
     thumbnail: "https://i.imgur.com/WnNeTDVs.png",
-  },
-  {
-    original: "https://i.imgur.com/KnDKq7D.png",
-    thumbnail: "https://i.imgur.com/KnDKq7Ds.png",
   },
   {
     original: "https://i.imgur.com/KnDKq7D.png",
