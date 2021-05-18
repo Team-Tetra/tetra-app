@@ -624,6 +624,62 @@ const images = [
     original: "https://i.imgur.com/Y1lgY5r.png",
     thumbnail: "https://i.imgur.com/Y1lgY5rs.png",
   },
+  {
+    original: "https://i.imgur.com/Ns3eB0p.png",
+    thumbnail: "https://i.imgur.com/Ns3eB0ps.png",
+  },
+  {
+    original: "https://i.imgur.com/CHITxvJ.png",
+    thumbnail: "https://i.imgur.com/CHITxvJs.png",
+  },
+  {
+    original: "https://i.imgur.com/ueA0sJX.png",
+    thumbnail: "https://i.imgur.com/ueA0sJXs.png",
+  },
+  {
+    original: "https://i.imgur.com/ni00E16.png",
+    thumbnail: "https://i.imgur.com/ni00E16s.png",
+  },
+  {
+    original: "https://i.imgur.com/IsAO7Vv.png",
+    thumbnail: "https://i.imgur.com/IsAO7Vvs.png",
+  },
+  {
+    original: "https://i.imgur.com/Omhe2Ip.png",
+    thumbnail: "https://i.imgur.com/Omhe2Ips.png",
+  },
+  {
+    original: "https://i.imgur.com/PJF7hOy.png",
+    thumbnail: "https://i.imgur.com/PJF7hOys.png",
+  },
+  {
+    original: "https://i.imgur.com/9p1bUDP.png",
+    thumbnail: "https://i.imgur.com/9p1bUDPs.png",
+  },
+  {
+    original: "https://i.imgur.com/DS41QYb.png",
+    thumbnail: "https://i.imgur.com/DS41QYbs.png",
+  },
+  {
+    original: "https://i.imgur.com/mSjCYX0.png",
+    thumbnail: "https://i.imgur.com/mSjCYX0s.png",
+  },
+  {
+    original: "https://i.imgur.com/eaysDGZ.png",
+    thumbnail: "https://i.imgur.com/eaysDGZs.png",
+  },
+  {
+    original: "https://i.imgur.com/VDJvwl0.png",
+    thumbnail: "https://i.imgur.com/VDJvwl0s.png",
+  },
+  {
+    original: "https://i.imgur.com/tY5ME3T.png",
+    thumbnail: "https://i.imgur.com/tY5ME3Ts.png",
+  },
+  {
+    original: "https://i.imgur.com/6Lv1SaN.png",
+    thumbnail: "https://i.imgur.com/6Lv1SaNs.png",
+  },
 ];
 
 images.reverse();
