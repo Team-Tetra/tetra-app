@@ -131,6 +131,13 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   @include vendor-prefix("user-select", none);
   -webkit-tap-highlight-color: $ig-transparent;
   position: relative;
+  height: calc(97vh - 80px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
   &.fullscreen-modal {
     background: $ig-black;
@@ -408,8 +415,8 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   line-height: 1;
   padding: 10px 20px;
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 0;
+  bottom: 0;
   z-index: 4;
 
   @media (max-width: $ig-small-screen) {
