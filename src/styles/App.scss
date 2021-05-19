@@ -1,11 +1,11 @@
-@import "./_color.scss";
-@import "./image-gallery.scss";
+@import './_color.scss';
+@import './image-gallery.scss';
 
 $ig-small-screen: 768px !default;
 $ig-xsmall-screen: 480px !default;
 
 #App {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #page-wrap {
