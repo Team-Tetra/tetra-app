@@ -676,6 +676,34 @@ const images = [
     original: "https://i.imgur.com/6Lv1SaN.png",
     thumbnail: "https://i.imgur.com/6Lv1SaNs.png",
   },
+  {
+    original: "https://i.imgur.com/yc1e2Jr.png",
+    thumbnail: "https://i.imgur.com/yc1e2Jrs.png",
+  },
+  {
+    original: "https://i.imgur.com/vTHxaZNs.png",
+    thumbnail: "https://i.imgur.com/vTHxaZNs.png",
+  },
+  {
+    original: "https://i.imgur.com/B0yola0.png",
+    thumbnail: "https://i.imgur.com/B0yola0s.png",
+  },
+  {
+    original: "hhttps://i.imgur.com/pCCIuWN.png",
+    thumbnail: "https://i.imgur.com/pCCIuWNs.png",
+  },
+  {
+    original: "https://i.imgur.com/CbohSyC.png",
+    thumbnail: "https://i.imgur.com/CbohSyCs.png",
+  },
+  {
+    original: "https://i.imgur.com/tHPsEF0.png",
+    thumbnail: "https://i.imgur.com/tHPsEF0s.png",
+  },
+  {
+    original: "https://i.imgur.com/WFtr7Jc.png",
+    thumbnail: "https://i.imgur.com/WFtr7Jcs.png",
+  },
 ];
 
 images.reverse();
