@@ -705,6 +705,10 @@ const images = [
     original: "https://i.imgur.com/WFtr7Jc.png",
     thumbnail: "https://i.imgur.com/WFtr7Jcs.png",
   },
+  {
+    original: "https://i.imgur.com/oaqczas.png",
+    thumbnail: "https://i.imgur.com/oaqczass.png",
+  },
 ];
 
 images.reverse();
