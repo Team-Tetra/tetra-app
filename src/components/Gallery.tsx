@@ -2,7 +2,6 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import SideBar from "./sidebar";
 import tetra from "../assets/tetra.png";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const images = [
   {
@@ -719,11 +718,7 @@ images.reverse();
 
 function Gallery() {
   return (
-    <HelmetProvider>
     <div id="App">
-      <Helmet>
-          <title>Gallery | Tetra</title>
-        </Helmet>
       <SideBar
         customBurgerIcon={<img src={tetra} alt="menu button" />}
         pageWrapId={"page-wrap"}
@@ -739,7 +734,6 @@ function Gallery() {
         />
       </div>
     </div>
-    </HelmetProvider>
   );
 }
 
