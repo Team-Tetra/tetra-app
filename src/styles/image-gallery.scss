@@ -133,6 +133,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   position: relative;
   height: calc(97vh - 80px);
   width: 100%;
+  top: 2vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
