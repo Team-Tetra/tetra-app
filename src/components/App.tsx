@@ -6,7 +6,6 @@ import SideBar from "./sidebar";
 import Gallery from "./Gallery";
 import "../styles/App.scss";
 import tetra from "../assets/tetra.png";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 export default function Routing() {
   return (
@@ -22,41 +21,27 @@ export default function Routing() {
   );
 }
 
-class App extends React.Component {
-  render () {
-    return (
-      <HelmetProvider>
-        <div id="App">
-          <Helmet>
-            <title>Home | Tetra</title>
-          </Helmet>
-          <SideBar
-            customBurgerIcon={<img src={tetra} alt="menu button" />}
-            isOpen
-            pageWrapId={"page-wrap"}
-            outerContainerId={"App"}
-          />
-          <div id="page-wrap"></div>
-        </div>
-      </HelmetProvider>
-    );
-  }
-};
+function App() {
+  return (
+    <div id="App">
+      <SideBar
+        customBurgerIcon={<img src={tetra} alt="menu button" />}
+        isOpen
+        pageWrapId={"page-wrap"}
+        outerContainerId={"App"}
+      />
+      <div id="page-wrap"></div>
+    </div>
+  );
+}
 
-class NoMatch extends React.Component {
-  render () {
-    return (
-      <HelmetProvider>
-        <div className="App">
-          <Helmet>
-            <title>Lost? | Tetra</title>
-          </Helmet>
-          <SideBar customBurgerIcon={<img src={tetra} alt="menu button" />} pageWrapId={"page-wrap"} outerContainerId={"App"} />
-          <div id="page-wrap">
-            <h1>Are you lost?</h1>
-          </div>
-        </div>
-      </HelmetProvider>
-    );
-  }
+function NoMatch() {
+  return (
+    <div id="App">
+      <SideBar customBurgerIcon={<img src={tetra} alt="menu button" />} pageWrapId={"page-wrap"} outerContainerId={"App"} />
+      <div id="page-wrap">
+        <h1>Are you lost?</h1>
+      </div>
+    </div>
+  );
 }
