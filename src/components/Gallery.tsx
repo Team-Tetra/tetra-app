@@ -693,6 +693,7 @@ function Gallery() {
           lazyLoad={true}
           showPlayButton={false}
           showIndex={true}
+          showFullscreenButton={false}
           items={images}
         />
       </div>
