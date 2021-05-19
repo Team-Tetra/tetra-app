@@ -717,7 +717,7 @@ function Gallery() {
   return (
     <div id="App">
       <Helmet>
-        <title>Gallery | Tetra</title>
+        <title>Tetra | Gallery</title>
       </Helmet>
       <SideBar
         customBurgerIcon={<img src={tetra} alt="menu button" />}
