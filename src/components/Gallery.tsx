@@ -2,7 +2,6 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import SideBar from "./sidebar";
 import tetra from "../assets/tetra.png";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const images = [
   {
@@ -717,32 +716,25 @@ const images = [
 
 images.reverse();
 
-class Gallery extends React.Component {
-  render () {
-    return (
-    <HelmetProvider>
-      <div id="App">
-        <Helmet>
-          <title>Gallery | Tetra</title>
-        </Helmet>
-        <SideBar
-          customBurgerIcon={<img src={tetra} alt="menu button" />}
-          pageWrapId={"page-wrap"}
-          outerContainerId={"App"}
+function Gallery() {
+  return (
+    <div id="App">
+      <SideBar
+        customBurgerIcon={<img src={tetra} alt="menu button" />}
+        pageWrapId={"page-wrap"}
+        outerContainerId={"App"}
+      />
+      <div id="page-wrap">
+        <ImageGallery
+          lazyLoad={true}
+          showPlayButton={false}
+          showIndex={true}
+          showFullscreenButton={false}
+          items={images}
         />
-        <div id="page-wrap">
-          <ImageGallery
-            lazyLoad={true}
-            showPlayButton={false}
-            showIndex={true}
-            showFullscreenButton={false}
-            items={images}
-          />
-        </div>
       </div>
-    </HelmetProvider>
-    );
-  }
+    </div>
+  );
 }
 
 export default Gallery;

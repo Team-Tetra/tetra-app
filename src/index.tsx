@@ -4,7 +4,7 @@ import "./styles/index.scss";
 import App from "./components/App";
 import * as serviceWorker from "./components/serviceWorker";
 
-ReactDOM.hydrate(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
