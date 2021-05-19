@@ -1,3 +1,4 @@
+$ig-small-landscape: 1024px !default;
 $ig-small-screen: 768px !default;
 $ig-xsmall-screen: 480px !default;
 $ig-white: #fff !default;
@@ -131,14 +132,6 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   @include vendor-prefix("user-select", none);
   -webkit-tap-highlight-color: $ig-transparent;
   position: relative;
-  height: calc(97vh - 80px);
-  width: 100%;
-  top: 2vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 
   &.fullscreen-modal {
     background: $ig-black;
@@ -209,6 +202,13 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   position: absolute;
   top: 0;
   width: 100%;
+  height: calc(97vh - 80px);
+  top: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
   &.center {
     position: relative;
@@ -360,6 +360,11 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   padding: 0;
 
   @media (max-width: $ig-small-screen) {
+    border: 3px solid transparent;
+    width: 81px;
+  }
+
+  @media (max-width: $ig-small-landscape) and (orientation: landscape) {
     border: 3px solid transparent;
     width: 81px;
   }
