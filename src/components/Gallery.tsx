@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import ImageGallery from "react-image-gallery";
 import SideBar from "./sidebar";
 import tetra from "../assets/tetra.png";
@@ -711,6 +712,9 @@ images.reverse();
 function Gallery() {
   return (
     <div id="App">
+      <Helmet>
+        <title>Tetra | Gallery</title>
+      </Helmet>
       <SideBar
         customBurgerIcon={<img src={tetra} alt="menu button" />}
         pageWrapId={"page-wrap"}
