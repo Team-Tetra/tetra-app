@@ -681,7 +681,7 @@ const images = [
     thumbnail: "https://i.imgur.com/yc1e2Jrs.png",
   },
   {
-    original: "https://i.imgur.com/vTHxaZNs.png",
+    original: "https://i.imgur.com/vTHxaZN.png",
     thumbnail: "https://i.imgur.com/vTHxaZNs.png",
   },
   {
@@ -689,7 +689,7 @@ const images = [
     thumbnail: "https://i.imgur.com/B0yola0s.png",
   },
   {
-    original: "hhttps://i.imgur.com/pCCIuWN.png",
+    original: "https://i.imgur.com/pCCIuWN.png",
     thumbnail: "https://i.imgur.com/pCCIuWNs.png",
   },
   {
