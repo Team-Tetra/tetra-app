@@ -25,29 +25,6 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   position: absolute;
   z-index: 4;
   filter: drop-shadow(0 2px 2px lighten($ig-black, 10%));
-
-  @media (min-width: $ig-small-screen) {
-    // Don't hover on screens smaller than small
-    &:hover {
-      color: $ig-blue;
-      .image-gallery-svg {
-        transform: scale(1.1);
-      }
-    }
-  }
-
-  &:focus {
-    // a11y support
-    outline: 2px solid $ig-blue;
-  }
-}
-
-.image-gallery-using-mouse {
-  .image-gallery-icon {
-    &:focus {
-      outline: none;
-    }
-  }
 }
 
 .image-gallery-fullscreen-button,
