@@ -1,3 +1,4 @@
+$ig-small-landscape: 1024px !default;
 $ig-small-screen: 768px !default;
 $ig-xsmall-screen: 480px !default;
 $ig-white: #fff !default;
@@ -7,7 +8,7 @@ $ig-background-black: rgba(0, 0, 0, 0.4) !default;
 $ig-transparent: rgba(0, 0, 0, 0) !default;
 
 @mixin vendor-prefix($name, $value) {
-  @each $vendor in ("-webkit-", "-moz-", "-ms-", "-o-", "") {
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
     #{$vendor}#{$name}: #{$value};
   }
 }
@@ -24,29 +25,6 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   position: absolute;
   z-index: 4;
   filter: drop-shadow(0 2px 2px lighten($ig-black, 10%));
-
-  @media (min-width: $ig-small-screen) {
-    // Don't hover on screens smaller than small
-    &:hover {
-      color: $ig-blue;
-      .image-gallery-svg {
-        transform: scale(1.1);
-      }
-    }
-  }
-
-  &:focus {
-    // a11y support
-    outline: 2px solid $ig-blue;
-  }
-}
-
-.image-gallery-using-mouse {
-  .image-gallery-icon {
-    &:focus {
-      outline: none;
-    }
-  }
 }
 
 .image-gallery-fullscreen-button,
@@ -128,7 +106,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 // End of Icon styles
 
 .image-gallery {
-  @include vendor-prefix("user-select", none);
+  @include vendor-prefix('user-select', none);
   -webkit-tap-highlight-color: $ig-transparent;
   position: relative;
 
@@ -160,7 +138,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   }
 
   .image-gallery-slide .image-gallery-image {
-    max-height: calc(100vh - 80px); // 80 px for the thumbnail space
+    max-height: calc(97vh - 80px); // 80 px for the thumbnail space
   }
 
   &.left,
@@ -201,6 +179,13 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   position: absolute;
   top: 0;
   width: 100%;
+  height: calc(97vh - 80px);
+  top: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
   &.center {
     position: relative;
@@ -338,6 +323,8 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
     text-align: center;
     transition: transform 0.45s ease-out;
     white-space: nowrap;
+    bottom: 0px;
+    position: fixed;
   }
 }
 
@@ -350,6 +337,11 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   padding: 0;
 
   @media (max-width: $ig-small-screen) {
+    border: 3px solid transparent;
+    width: 81px;
+  }
+
+  @media (max-width: $ig-small-landscape) and (orientation: landscape) {
     border: 3px solid transparent;
     width: 81px;
   }
@@ -382,7 +374,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 
 .image-gallery-thumbnail-label {
   box-sizing: border-box;
-  color: white;
+  color: $tetra-light;
   font-size: 1em;
   left: 0;
   line-height: 1em;
@@ -406,8 +398,8 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   line-height: 1;
   padding: 10px 20px;
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 0;
+  bottom: 0;
   z-index: 4;
 
   @media (max-width: $ig-small-screen) {
