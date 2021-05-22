@@ -38,7 +38,7 @@ function App() {
 function NoMatch() {
   return (
     <div id="App">
-      <SideBar customBurgerIcon={<img src={tetra} alt="menu button" />} pageWrapId={"page-wrap"} outerContainerId={"App"} />
+      <SideBar customBurgerIcon={<img src={tetra} alt="Menu" />} pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <div id="page-wrap">
         <h1>Are you lost?</h1>
       </div>

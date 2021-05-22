@@ -724,7 +724,7 @@ function Gallery() {
   return (
     <div id="App">
       <SideBar
-        customBurgerIcon={<img src={tetra} alt="menu button" />}
+        customBurgerIcon={<img src={tetra} alt="Menu" />}
         pageWrapId={"page-wrap"}
         outerContainerId={"App"}
       />
