@@ -716,6 +716,10 @@ const images = [
     original: "https://i.imgur.com/bI4fsvm.png",
     thumbnail: "https://i.imgur.com/bI4fsvms.png",
   },
+  {
+    original: "https://i.imgur.com/Koepbp1.png",
+    thumbnail: "https://i.imgur.com/Koepbp1s.png",
+  },
 ];
 
 images.reverse();
