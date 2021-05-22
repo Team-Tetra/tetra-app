@@ -5,7 +5,7 @@ import "../styles/sidebar.scss";
 import SideBar from "./sidebar";
 import Gallery from "./Gallery";
 import "../styles/App.scss";
-import tetra from "../assets/tetra.png";
+import tetra from "../assets/tetra_icon.png";
 
 export default function Routing() {
   return (

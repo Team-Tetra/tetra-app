@@ -1,7 +1,7 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import SideBar from "./sidebar";
-import tetra from "../assets/tetra.png";
+import tetra from "../assets/tetra_icon.png";
 
 const images = [
   {
