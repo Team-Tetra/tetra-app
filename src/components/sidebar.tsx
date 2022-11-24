@@ -1,5 +1,5 @@
-import React from "react";
-import { scaleDown as Menu } from "react-burger-menu";
+import React from 'react';
+import { scaleDown as Menu } from 'react-burger-menu';
 
 export default (props: any) => {
   return (
